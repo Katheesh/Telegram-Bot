@@ -1,20 +1,32 @@
 [
     {
         "triggers": [
+            "Hi",
+            "Hello"
+        ],
+        "replies": [
+            {
+                "reply": "Hello Dear",
+                "type": "text"
+            },
+            {
+                "reply": "Hi Dear",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "triggers": [
             "night",
             "good night"
         ],
         "replies": [
             {
-                "reply": "To you...",
+                "reply": "Good night & Sweet Dreams To you...",
                 "type": "text"
             },
             {
-                "reply": "It's time",
-                "type": "text"
-            },
-            {
-                "reply": "Where are you going? The night is still young!",
+                "reply": "Good night & Sweet Dreams",
                 "type": "text"
             }
         ]
@@ -44,18 +56,33 @@
         ],
         "replies": [
             {
-                "reply": "./media/images/kid_laughing_meme.jpg",
+                "reply": "./media/images/lauging.gif",
                 "type": "image"
             }
         ]
     },
     {
         "triggers": [
-            "party"
+            "love you",
+            "like",
+            "i love you"
         ],
         "replies": [
             {
-                "reply": "./media/images/party_girl.gif",
+                "reply": "./media/images/loving.gif",
+                "type": "image"
+            }
+        ]
+    },
+    {
+        "triggers": [
+            "kiss you",
+            "kiss",
+            "i kiss you"
+        ],
+        "replies": [
+            {
+                "reply": "./media/images/kissing.gif",
                 "type": "image"
             }
         ]
