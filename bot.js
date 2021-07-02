@@ -2,11 +2,6 @@ require('dotenv').config();
 const TelegramBot = require('node-telegram-bot-api');
 const bot = new TelegramBot(process.env.TELEGRAM_TOKEN, { polling: true });
 
-const express = require('express')
-const app = express()
-const port = 3000
-
-
 // ---------- LOGGIN FEATURES ----------
 var fs = require('fs');
 var util = require('util');
@@ -96,11 +91,3 @@ function controlMessage(message) {
 
 	return found;
 }
-
-app.get('/', (req, res) => {
-	res.send("This is TamilBot")
-})
-
-app.listen(8000, () => {
-	console.log(`App Started at https://tamilrobot.herokuapp.com/`)
-})
